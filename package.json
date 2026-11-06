@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafaroy/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "Oksana_Shafar <shafar.o.y@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafaroy/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/shafaroy/nodejs-hw#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pino-http": "^11.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "nodemon": "^3.1.14"
+  }
+}
