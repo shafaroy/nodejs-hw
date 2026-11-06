@@ -1,13 +1,11 @@
 import js from '@eslint/js';
+import globals from 'globals';
 
 export default [
   js.configs.recommended,
   {
     languageOptions: {
-      globals: {
-        process: 'readonly',
-        console: 'readonly',
-      },
+      globals: globals.node,
     },
     rules: {
       'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
