@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Prepare project plan",
+    "content": "Review the project tasks and deadlines.",
+    "tag": "Work",
+    "createdAt": { "$date": "2026-11-16T10:00:00.000Z" },
+    "updatedAt": { "$date": "2026-11-16T10:00:00.000Z" }
+  },
+  {
+    "title": "Buy groceries",
+    "content": "Milk, bread, apples.",
+    "tag": "Shopping",
+    "createdAt": { "$date": "2026-11-16T10:05:00.000Z" },
+    "updatedAt": { "$date": "2026-11-16T10:05:00.000Z" }
+  },
+  {
+    "title": "Team meeting",
+    "content": "Discuss the next release.",
+    "tag": "Meeting",
+    "createdAt": { "$date": "2026-11-16T10:10:00.000Z" },
+    "updatedAt": { "$date": "2026-11-16T10:10:00.000Z" }
+  },
+  {
+    "title": "Weekend ideas",
+    "content": "Choose a place for a family walk.",
+    "tag": "Personal",
+    "createdAt": { "$date": "2026-11-16T10:15:00.000Z" },
+    "updatedAt": { "$date": "2026-11-16T10:15:00.000Z" }
+  }
+]
