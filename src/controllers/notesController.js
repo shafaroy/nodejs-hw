@@ -19,10 +19,12 @@ export const getAllNotes = async (req, res) => {
     ];
   }
 
-  const totalNotes = await Note.countDocuments(filter);
-  const notes = await Note.find(filter)
-    .skip((page - 1) * perPage)
-    .limit(perPage);
+  const [notes, totalNotes] = await Promise.all([
+    Note.find(filter)
+      .skip((page - 1) * perPage)
+      .limit(perPage),
+    Note.countDocuments(filter),
+  ]);
 
   res.status(200).json({
     page,
